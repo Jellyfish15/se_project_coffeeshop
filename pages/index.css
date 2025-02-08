@@ -103,8 +103,8 @@ a:link {
   color: #fff;
   background-color: #0a2750;
   background-image: url("../images/background_recipes.svg");
-  position: center;
-  size: cover;
+  background-position: center;
+  background-size: cover;
   margin: 0;
   padding: 100px 80px 215px;
 }
