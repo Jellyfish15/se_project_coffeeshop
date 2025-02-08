@@ -107,6 +107,7 @@ a:link {
   background-size: cover;
   margin: 0;
   padding: 100px 80px 215px;
+
 }
 
 .recipes__title {
@@ -133,7 +134,6 @@ a:link {
   display: flex;
   justify-content: center;
   gap: 100px;
-
 }
 
 .recipes__video-caption {
@@ -146,3 +146,6 @@ a:link {
   line-height: 30px;
 }
 
+.recipes__iframe {
+  border: none;
+}
