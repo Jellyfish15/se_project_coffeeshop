@@ -229,7 +229,6 @@ a:link {
 
 .form__button:hover {
   background-color: #3f96f3;
-  transform: background-color(0.3s);
 }
 
 .form__checkbox-container {
