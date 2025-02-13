@@ -6,6 +6,7 @@
     background-image: url("../images/background_menu.svg");
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: center;
 }
 .menu__title {
     margin: 0 0 24px;

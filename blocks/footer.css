@@ -13,8 +13,14 @@
   flex-direction: column;
   list-style-type: none;
 }
-
-.footer__social_link {
+.footer__social-heading {
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+}
+.footer__list-item {
   color: #fff;
   text-decoration: none;
   display: flex;
@@ -22,7 +28,7 @@
   transition: opacity 0.5s;
 }
 
-.footer__social_link:hover {
+.footer__social-link:hover {
   opacity: 75%;
 }
 

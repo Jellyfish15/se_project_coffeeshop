@@ -1,5 +1,6 @@
 .header {
     padding: 30px 80px 40px;
+    box-sizing: border-box;
     background: center / cover no-repeat #fff url("../images/background_header.svg");
     position: relative;
     background-size: cover;
@@ -7,6 +8,7 @@
     height: 800px;
     display: flex;
     flex-direction: column;
+    z-index: 1;
   }
 
   .header__title {
@@ -21,7 +23,7 @@
 
   .header__span-accent {
     display:block;
-    font-family: "Noto Serif";
+    font-family: "Noto Serif", Arial, sans-serif;
     font-style: italic;
     font-size: 60px;
     line-height: 72px;
@@ -32,20 +34,23 @@
     margin: 28px 0 0;
     max-width: 683px;
     font-family: "Noto Serif", "Times New Roman", serif;
+    font-size: 20px;
+  line-height: 30px;
   }
   .header__image {
     position: absolute;
     right: 5px;
     top: 124px;
-    width: 656px;
+    width: 646px;
     height: 568px;
+    z-index: -1;
   }
 
   .header__paragraph {
     margin: 0;
   }
 
-  .header_footer {
+  .header__footer {
     margin-top: auto;
     display: flex;
     flex-direction: row;
